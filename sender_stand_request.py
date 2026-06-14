@@ -3,6 +3,7 @@ import data
 
 import requests
 
+# Артемий Сальцин, 43 когорта, дипломный спринт
 def post_new_order():
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_ORDER_PATH, json=data.order_data)
 
